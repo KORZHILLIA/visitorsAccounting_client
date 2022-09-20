@@ -1,0 +1,6 @@
+.body td {
+  padding: 10px;
+  border: 2px solid #ccc;
+  font-size: 20px;
+  text-align: center;
+}

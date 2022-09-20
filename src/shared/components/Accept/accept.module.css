@@ -1,0 +1,45 @@
+.warn {
+  margin-bottom: 20px;
+  padding-top: 50px;
+  font-size: 22px;
+  text-align: center;
+}
+
+.wrapper {
+  --yes-color: rgb(220, 83, 83);
+  --no-color: rgb(92, 151, 92);
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.yes,
+.no {
+  width: 100px;
+}
+
+.yes:hover,
+.yes:focus,
+.no:hover,
+.no:focus {
+  color: #ccc;
+}
+
+.yes {
+  color: var(--yes-color);
+}
+
+.yes:hover,
+.yes:focus {
+  border: 2px solid var(--yes-color);
+  background-color: var(--yes-color);
+}
+
+.no {
+  color: var(--no-color);
+}
+
+.no:hover,
+.no:focus {
+  border: 2px solid var(--no-color);
+  background-color: var(--no-color);
+}
